@@ -197,9 +197,7 @@ while True:
                 print(vid.streams)
         except KeyError:
             print('KeyError')
-    # '<Stream: itag="278" mime_type="video/webm" res="144p" fps="15fps" vcodec="vp9" progressive="False" type="video">'
-    # future nostalgia https://www.youtube.com/watch?v=8EJ-vZyBzOQ
-    # oldest vid https://www.youtube.com/watch?v=jNQXAC9IVRw
+
     elif command == 'video':
         while True:
             link = input('Link/exit ~ ')
